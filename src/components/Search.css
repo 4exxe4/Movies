@@ -33,3 +33,34 @@
     border: none;
     border-radius: 15px;
 }
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.btn {
+    width: 60px;
+    border: 3px outset #005b97;
+    color: #005b97;
+}
+
+.btn2 {
+    width: 30px;
+    border: 3px outset #005b97;
+    color: #005b97;
+}
+
+/*.items {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 12px;
+}*/
+.btn-current-page {
+    width: 30px;
+    background-color: dodgerblue;
+}
